@@ -6,6 +6,9 @@ server: # REST and WS server
 plugins:
   youtube:
     enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
     clients:
       - MUSIC
       - WEB
@@ -17,7 +20,8 @@ plugins:
 #    another_key: another_value
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.2"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
+      snapshot: false
       repository: "https://maven.lavalink.dev/releases"
 #    - dependency: "com.github.example:example-plugin:1.0.0" # required, the coordinates of your plugin
 #      repository: "https://maven.example.com/releases" # optional, defaults to the Lavalink releases repository by default
