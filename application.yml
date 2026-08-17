@@ -8,6 +8,7 @@ plugins:
     enabled: true
     oauth:
       enabled: true
+      refreshToken: "1//0gyRINV3RGvs9CgYIARAAGBASNgF-L9IrXZq4a3rSZ-1LSCcFVDNH6MbGHZV8qklhCtSaHqFXLlGUgK12v89arGPKZd1cgSGidw"
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
     allowSearch: true
