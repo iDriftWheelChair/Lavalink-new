@@ -54,8 +54,8 @@ plugins:
         searching: true
         videoLoading: true
       WEBEMBEDDED:
-        playback: true
-        playlistLoading: true
+        playback: false
+        playlistLoading: false
         searching: true
         videoLoading: true
     clients:
