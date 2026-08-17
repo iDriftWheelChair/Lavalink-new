@@ -6,6 +6,8 @@ server: # REST and WS server
 plugins:
   youtube:
     enabled: true
+    oauth:
+      enabled: true
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
     allowSearch: true
