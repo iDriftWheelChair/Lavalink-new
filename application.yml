@@ -6,8 +6,6 @@ server: # REST and WS server
 plugins:
   youtube:
     enabled: true
-    oauth:
-      enabled: true
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
     allowSearch: true
@@ -54,8 +52,8 @@ plugins:
         videoLoading: true
       WEBEMBEDDED:
         playback: true
-        playlistLoading: false
-        searching: false
+        playlistLoading: true
+        searching: true
         videoLoading: true
     clients:
     - MUSIC
