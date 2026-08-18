@@ -8,6 +8,8 @@ plugins:
     enabled: true
     oauth:
       enabled: true
+    remoteCipher:
+      enabled: true
       refreshToken: "${LAVALINK_SERVER_REFRESHTOKEN}"
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
