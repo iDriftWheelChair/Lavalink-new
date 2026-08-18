@@ -8,9 +8,11 @@ plugins:
     enabled: true
     oauth:
       enabled: true
-    remoteCipher:
-      enabled: true
       refreshToken: "${LAVALINK_SERVER_REFRESHTOKEN}"
+    remoteCipher:
+      url: "${REMOTECIPHER_URL}" # The base URL of your remote cipher server.
+      password: "${REMOTECIPHER_PASSWORD}" # The password to authenticate with your remote cipher server.
+      userAgent: "BeatDock" # Optional user-agent header, used for metrics on the backend. 
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
     allowSearch: true
