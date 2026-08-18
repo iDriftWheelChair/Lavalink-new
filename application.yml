@@ -64,15 +64,15 @@ plugins:
         searching: true
         videoLoading: true
     clients:
+    - WEB
+    - MWEB
     - MUSIC
     - WEBEMBEDDED
-    - ANDROID_VR
-    - ANDROID_MUSIC
     - TVHTML5EMBEDDED
     - TV
     - IOS
-    - WEB
-    - MWEB
+    - ANDROID_VR
+    - ANDROID_MUSIC
 
 #  name: # Name of the plugin
 #    some_key: some_value # Some key-value pair for the plugin
