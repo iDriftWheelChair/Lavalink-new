@@ -7,7 +7,7 @@ plugins:
   youtube:
     enabled: true
     oauth:
-      enabled: true
+      enabled: false
     #  refreshToken: "${LAVALINK_SERVER_REFRESHTOKEN}"
       skipInitialization: false
     remoteCipher:
