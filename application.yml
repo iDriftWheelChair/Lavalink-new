@@ -7,8 +7,8 @@ plugins:
   youtube:
     enabled: true
     oauth:
-      enabled: false
-    #  refreshToken: "${LAVALINK_SERVER_REFRESHTOKEN}"
+      enabled: true
+      refreshToken: "${LAVALINK_SERVER_REFRESHTOKEN}"
       skipInitialization: false
     remoteCipher:
       url: "${REMOTECIPHER_URL}" # The base URL of your remote cipher server.
