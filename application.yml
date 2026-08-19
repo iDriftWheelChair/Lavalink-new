@@ -9,7 +9,7 @@ plugins:
     oauth:
       enabled: true
       refreshToken: "${LAVALINK_SERVER_REFRESHTOKEN}"
-      skipInitialization: false
+      skipInitialization: true
     remoteCipher:
       url: "${REMOTECIPHER_URL}" # The base URL of your remote cipher server.
       password: "${REMOTECIPHER_PASSWORD}" # The password to authenticate with your remote cipher server.
